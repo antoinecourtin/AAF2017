@@ -16,11 +16,12 @@ https://tools.wmflabs.org/openrefine-wikidata/fr/api
 
 
 #### Adresses de téléchargement d'OpenRefine et de plugin
-https://github.com/fadmaa/grefine-rdf-extension/releases
-http://refine.codefork.com/reconcile/viaf
-https://www.bits.vib.be/index.php/software-overview/openrefine
-https://github.com/RubenVerborgh/Refine-NER-Extension
-https://github.com/sparkica/refine-stats
+* https://github.com/fadmaa/grefine-rdf-extension/releases
+##### Plugin
+* http://refine.codefork.com/reconcile/viaf
+* https://www.bits.vib.be/index.php/software-overview/openrefine
+* https://github.com/RubenVerborgh/Refine-NER-Extension
+* https://github.com/sparkica/refine-stats
 
 ##### Quelques exemples de "formule" utiles dans OpenRefine
 * rajouter une valeur fixe à une table : "test" + ", " + cells['UNIQUE_KEY'].value
