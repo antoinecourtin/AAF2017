@@ -1,11 +1,4 @@
-## Atelier Kit de survie - 4 octobre 2017
 ### Trucs et astuces utiles pour suivre les ateliers
-
-##### Pour structurer la données
-* Regex : https://help.libreoffice.org/Common/List_of_Regular_Expressions/fr
-* Extraire en col. E la première date inscrite en col. C... Utiliser les fonctions CHERCHE() + regex et STXT() à savoir :
-=STXT(C2;CHERCHE("[0-9]{4}";C2);4) ou =STXT(C2;CHERCHE("[[:digit:]]{4}";C2);4)
-
 
 
 ##### Pour Palladio
@@ -20,6 +13,7 @@ https://gist.github.com/antoinecourtin/39b313d4b0cdaa1df3b6f2a3ddbfc3a5
 https://gist.github.com/antoinecourtin/149401410f486372ffb1958ead9f0264
 * Adresse pour paramétrer l'outil de réalignement avec wikidata dans OpenRefine
 https://tools.wmflabs.org/openrefine-wikidata/fr/api
+
 
 #### Adresses de téléchargement d'OpenRefine et de plugin
 https://github.com/fadmaa/grefine-rdf-extension/releases
