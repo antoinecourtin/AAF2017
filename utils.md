@@ -15,6 +15,7 @@ https://gist.github.com/antoinecourtin/149401410f486372ffb1958ead9f0264
 https://tools.wmflabs.org/openrefine-wikidata/fr/api
 
 
+
 #### Adresses de téléchargement d'OpenRefine et de plugin
 * https://github.com/fadmaa/grefine-rdf-extension/releases
  * Plugin
@@ -36,7 +37,7 @@ https://tools.wmflabs.org/openrefine-wikidata/fr/api
 * extration des parenthèse : value.match(/.*(\(.*\)).*/)[0]
 * appeler une API via la fonction Fetching URL: "http://maps.google.com/maps/api/geocode/json?sensor=false&address=" + escape(value, "url")
 * Extraitre une info dans un json (lattitude) issue d'une requête à une API : value.parseJson().results[0].geometry.location.lat
-* Extraire l'id de wikidata après le réalignement: cell.recon.match.id
+* Extraire l'id (ou le nom du Q) de wikidata après le réalignement: cell.recon.match.id / cell.recon.match.name
 * Template pour croiser 2 jeux de données = cell.cross("My Address Book", "friend")[0].cells["address"].value
 => cell.cross("nomduprojet", "nomColonneeCléIntermédiaire")[0].cells["nomColonneArécupérer"].value
 
